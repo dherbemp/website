@@ -43,6 +43,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
+.bloc-lg{
+	padding:100px 50px;
+}
 .bloc-md{
 	padding:50px;
 }
@@ -126,6 +129,14 @@ button{
 	outline: none!important;
 }
 
+.a-block{
+	width:100%;
+	text-align:left;
+	display: inline-block;
+}
+.text-center .a-block{
+	text-align:center;
+}
 
 /* = Icons
 -------------------------------------------------------------- */
@@ -350,6 +361,9 @@ h2{
 	}
 	.row-margin-top{
 		margin-bottom:40px;
+	}
+	.footer-link{
+		text-align:center;
 	}
 	
 }
