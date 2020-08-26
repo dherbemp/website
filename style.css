@@ -43,9 +43,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 /* Sizes */
 
-.bloc-xl{
-	padding:150px 50px;
-}
 .bloc-lg{
 	padding:100px 50px;
 }
@@ -54,70 +51,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 .bloc-sm{
 	padding:20px 50px;
-}
-
-
-/* Background Effects */
-
-.b-parallax{
-	background-attachment:fixed;
-}
-
-/* Disable Parallax on Mobile Touch Devices */
-@media (hover: none) {
-	.b-parallax{
-	background-attachment:scroll;
-}
-}
-
-/* Dark theme */
-
-.d-bloc{
-	color:rgba(255,255,255,.7);
-}
-.d-bloc button:hover{
-	color:rgba(255,255,255,.9);
-}
-.d-bloc .icon-round,.d-bloc .icon-square,.d-bloc .icon-rounded,.d-bloc .icon-semi-rounded-a,.d-bloc .icon-semi-rounded-b{
-	border-color:rgba(255,255,255,.9);
-}
-.d-bloc .divider-h span{
-	border-color:rgba(255,255,255,.2);
-}
-.d-bloc .a-btn,.d-bloc .navbar a, .d-bloc a .icon-sm, .d-bloc a .icon-md, .d-bloc a .icon-lg, .d-bloc a .icon-xl, .d-bloc h1 a, .d-bloc h2 a, .d-bloc h3 a, .d-bloc h4 a, .d-bloc h5 a, .d-bloc h6 a, .d-bloc p a{
-	color:rgba(255,255,255,.6);
-}
-.d-bloc .a-btn:hover,.d-bloc .navbar a:hover,.d-bloc a:hover .icon-sm, .d-bloc a:hover .icon-md, .d-bloc a:hover .icon-lg, .d-bloc a:hover .icon-xl, .d-bloc h1 a:hover, .d-bloc h2 a:hover, .d-bloc h3 a:hover, .d-bloc h4 a:hover, .d-bloc h5 a:hover, .d-bloc h6 a:hover, .d-bloc p a:hover{
-	color:rgba(255,255,255,1);
-}
-.d-bloc .navbar-toggle .icon-bar{
-	background:rgba(255,255,255,1);
-}
-.d-bloc .btn-wire,.d-bloc .btn-wire:hover{
-	color:rgba(255,255,255,1);
-	border-color:rgba(255,255,255,1);
-}
-.d-bloc .card{
-	color:rgba(0,0,0,.5);
-}
-.d-bloc .card button:hover{
-	color:rgba(0,0,0,.7);
-}
-.d-bloc .card icon{
-	border-color:rgba(0,0,0,.7);
-}
-.d-bloc .card .divider-h span{
-	border-color:rgba(0,0,0,.1);
-}
-.d-bloc .card .a-btn{
-	color:rgba(0,0,0,.6);
-}
-.d-bloc .card .a-btn:hover{
-	color:rgba(0,0,0,1);
-}
-.d-bloc .card .btn-wire, .d-bloc .card .btn-wire:hover{
-	color:rgba(0,0,0,.7);
-	border-color:rgba(0,0,0,.3);
 }
 
 
@@ -195,6 +128,18 @@ a:hover{text-decoration: none; cursor:pointer;}
 .mg-lg{
 	margin-top:10px;
 	margin-bottom:40px;
+}
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
 }
 
 /* = Buttons
@@ -348,31 +293,13 @@ a[data-lightbox]:hover img{
 	left:25px;
 }
 
-/* Dark */
-.dark-lb{
-	background:#1F272A;
-}
-
-/* Framless */
-.frameless-lb{
-	border-radius: 0;
-	border:none;
-}
-.frameless-lb .modal-body{
-	padding:0;
-}
-.frameless-lb .lightbox-caption{
-	left:0;
-	right:0;
-	bottom:-16px;
-}
-
 /* = Custom Styling
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Open Sans";
 	font-weight:800;
+	color:rgba(0,0,0,0.50)!important;
 }
 .container{
 	max-width:1140px;
@@ -401,7 +328,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	height:180px;
 }
 .row-margin-bottom{
-	margin-bottom:70px;
+	margin-bottom:49px;
 }
 .row-bloc-2-margin-bottom{
 	margin-bottom:96px;
@@ -447,17 +374,26 @@ h2{
 .bio{
 	color:#000000!important;
 }
-.h3-style{
-	width:100%;
-}
 .bloc-bloc-7-margin-top{
 	margin-top:0px;
 }
 .bloc-bloc-10-margin-top{
-	margin-top:-77px;
+	margin-top:0px;
 }
 .img-margin-top{
 	margin-top:47px;
+}
+.img-margin-bottom{
+	margin-bottom:20px;
+}
+.bloc-bloc-0-margin-bottom{
+	margin-bottom:3px;
+}
+.img-style{
+	width:320px;
+}
+.img-sociala-style{
+	width:320px;
 }
 
 /* = Colour
@@ -471,12 +407,6 @@ h2{
 
 /* Bloc image backgrounds */
 
-.bg-Sans-20titre{
-	background-image:url("img/Sans%20titre.jpg");
-}
-.bg-Accueil-201680x1050{
-	background-image:url("img/Accueil%201680x1050.jpg");
-}
 
 
 
