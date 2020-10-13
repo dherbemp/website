@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    My Site v08
+	    My Site v09
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -155,20 +155,7 @@ button{
 	outline: none!important;
 }
 
-.a-block{
-	width:100%;
-	text-align:left;
-	display: inline-block;
-}
-.text-center .a-block{
-	text-align:center;
-}
 
-/* = Icons
--------------------------------------------------------------- */
-.icon-md{
-	font-size:30px!important;
-}
 
 
 
